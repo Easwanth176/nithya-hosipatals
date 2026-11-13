@@ -1,0 +1,104 @@
+﻿<!-- building:start -->
+        <svg class="building" viewBox="0 0 520 440" aria-hidden="true">
+          <g class="layer" data-depth="-10">
+            <circle class="backdrop" cx="286" cy="240" r="166"/>
+            <circle class="backdrop b2" cx="92" cy="128" r="54"/>
+            <g class="cloud"><path d="M40 70h52a12 12 0 0 0 0-24a18 18 0 0 0-34-5a14 14 0 0 0-18 29z"/></g>
+            <g class="cloud cloud-2"><path d="M408 44h40a10 10 0 0 0 0-20a15 15 0 0 0-28-4a12 12 0 0 0-12 24z"/></g>
+            <g class="bird"><path d="M454 92q6-6 12 0q6-6 12 0"/><path d="M478 108q4-4 8 0q4-4 8 0"/></g>
+          </g>
+
+          <g class="layer" data-depth="4">
+            <g class="wash">
+              <path class="w-glass" d="M58 412V156Q130 124 202 156V412Z"/>
+              <path class="w-glass-band" d="M58 236Q130 206 202 236V276Q130 246 58 276Z"/>
+              <rect class="w-body" x="202" y="118" width="222" height="294"/>
+              <rect class="w-body" x="250" y="54" width="126" height="32"/>
+              <rect class="w-body" x="424" y="214" width="76" height="198"/>
+              <rect class="w-body" x="244" y="364" width="138" height="48"/>
+              <path class="w-canopy" d="M230 364H396L384 346H242Z"/>
+              <rect class="w-door" x="290" y="378" width="46" height="34"/>
+              <path class="w-tree" d="M30 384c-14 0-18-22-4-28c-2-14 18-18 22-6c14-2 16 18 4 22c2 10-10 14-22 12z"/>
+              <path class="w-tree" d="M222 412c-2-10 10-15 15-7c6-7 15 1 11 7z"/>
+              <path class="w-tree" d="M388 412c-2-10 10-15 15-7c6-7 15 1 11 7z"/>
+            </g>
+            <g class="windows">
+              <rect class="win" x="220" y="140" width="26" height="24"/><rect class="win lit" x="262" y="140" width="26" height="24"/><rect class="win" x="304" y="140" width="26" height="24"/><rect class="win lit" x="346" y="140" width="26" height="24"/><rect class="win" x="388" y="140" width="26" height="24"/>
+              <rect class="win lit" x="220" y="180" width="26" height="24"/><rect class="win" x="262" y="180" width="26" height="24"/><rect class="win" x="304" y="180" width="26" height="24"/><rect class="win" x="346" y="180" width="26" height="24"/><rect class="win lit" x="388" y="180" width="26" height="24"/>
+              <rect class="win" x="220" y="220" width="26" height="24"/><rect class="win" x="262" y="220" width="26" height="24"/><rect class="win lit" x="304" y="220" width="26" height="24"/><rect class="win" x="346" y="220" width="26" height="24"/><rect class="win" x="388" y="220" width="26" height="24"/>
+              <rect class="win" x="220" y="260" width="26" height="24"/><rect class="win lit" x="262" y="260" width="26" height="24"/><rect class="win" x="304" y="260" width="26" height="24"/><rect class="win lit" x="346" y="260" width="26" height="24"/><rect class="win" x="388" y="260" width="26" height="24"/>
+              <rect class="win lit" x="220" y="300" width="26" height="24"/><rect class="win" x="262" y="300" width="26" height="24"/><rect class="win" x="304" y="300" width="26" height="24"/><rect class="win" x="346" y="300" width="26" height="24"/><rect class="win lit" x="388" y="300" width="26" height="24"/>
+              <rect class="win" x="436" y="234" width="20" height="20"/><rect class="win lit" x="468" y="234" width="20" height="20"/>
+              <rect class="win lit" x="436" y="268" width="20" height="20"/><rect class="win" x="468" y="268" width="20" height="20"/>
+              <rect class="win" x="436" y="302" width="20" height="20"/><rect class="win lit" x="468" y="302" width="20" height="20"/>
+            </g>
+            <g class="lines">
+              <path class="ln" pathLength="1" d="M14 412H506"/>
+              <path class="ln" pathLength="1" d="M58 412V156Q130 124 202 156V412"/>
+              <path class="ln thin" pathLength="1" d="M58 196Q130 166 202 196M58 236Q130 206 202 236M58 276Q130 246 202 276M58 316Q130 286 202 316M58 356Q130 326 202 356"/>
+              <path class="ln thin" pathLength="1" d="M84 137.1V412M108 127.0V412M132 124.0V412M156 128.2V412M180 139.4V412"/>
+              <path class="ln" pathLength="1" d="M52 156Q130 118 208 156"/>
+              <path class="ln" pathLength="1" d="M202 412V118H424V412"/>
+              <path class="ln" pathLength="1" d="M196 118H430M206 104H420V118M206 104V118"/>
+              <path class="ln thin" pathLength="1" d="M220 140h26v24h-26zM262 140h26v24h-26zM304 140h26v24h-26zM346 140h26v24h-26zM388 140h26v24h-26z"/>
+              <path class="ln thin" pathLength="1" d="M220 180h26v24h-26zM262 180h26v24h-26zM304 180h26v24h-26zM346 180h26v24h-26zM388 180h26v24h-26z"/>
+              <path class="ln thin" pathLength="1" d="M220 220h26v24h-26zM262 220h26v24h-26zM304 220h26v24h-26zM346 220h26v24h-26zM388 220h26v24h-26z"/>
+              <path class="ln thin" pathLength="1" d="M220 260h26v24h-26zM262 260h26v24h-26zM304 260h26v24h-26zM346 260h26v24h-26zM388 260h26v24h-26z"/>
+              <path class="ln thin" pathLength="1" d="M220 300h26v24h-26zM262 300h26v24h-26zM304 300h26v24h-26zM346 300h26v24h-26zM388 300h26v24h-26z"/>
+              <path class="ln" pathLength="1" d="M424 412V214H500V412"/>
+              <path class="ln" pathLength="1" d="M418 214H506"/>
+              <path class="ln thin" pathLength="1" d="M436 234h20v20h-20zM468 234h20v20h-20z"/>
+              <path class="ln thin" pathLength="1" d="M436 268h20v20h-20zM468 268h20v20h-20z"/>
+              <path class="ln thin" pathLength="1" d="M436 302h20v20h-20zM468 302h20v20h-20z"/>
+              <path class="ln" pathLength="1" d="M244 412V364H382V412"/>
+              <path class="ln" pathLength="1" d="M230 364H396L384 346H242Z"/>
+              <path class="ln thin" pathLength="1" d="M290 412V378H336V412M313 378V412"/>
+              <path class="ln" pathLength="1" d="M268 104V86M358 104V86"/>
+              <path class="ln" pathLength="1" d="M250 86V54H376V86Z"/>
+              <path class="ln thin" pathLength="1" d="M30 412V384M30 384c-14 0-18-22-4-28c-2-14 18-18 22-6c14-2 16 18 4 22c2 10-10 14-22 12z"/>
+              <path class="ln thin" pathLength="1" d="M222 412c-2-10 10-15 15-7c6-7 15 1 11 7M388 412c-2-10 10-15 15-7c6-7 15 1 11 7"/>
+              <path class="ln thin" pathLength="1" d="M440 412V396H500"/>
+            </g>
+            <path class="lane" d="M0 426H520"/>
+            <g class="badge badge-tower">
+              <circle cx="130" cy="236" r="34" fill="#fff" class="s-pink" stroke-width="2"/>
+              <image href="logo/nithya-logo.webp" x="104" y="210" width="52" height="52"/>
+            </g>
+            <g class="badge badge-roof">
+              <image href="logo/nithya-logo.webp" x="292" y="56" width="42" height="28"/>
+            </g>
+            <g class="badge badge-wing">
+              <circle cx="462" cy="186" r="15" fill="#fff" class="s-blue" stroke-width="2"/>
+              <path d="M462 178v16M454 186h16" class="s-pink" stroke-width="3" stroke-linecap="round"/>
+            </g>
+            <g class="name"><text class="ltr" x="254.2" y="359">N</text><text class="ltr" x="262.6" y="359">I</text><text class="ltr" x="271.0" y="359">T</text><text class="ltr" x="279.4" y="359">H</text><text class="ltr" x="287.8" y="359">Y</text><text class="ltr" x="296.2" y="359">A</text><text class="ltr" x="313.0" y="359">H</text><text class="ltr" x="321.4" y="359">O</text><text class="ltr" x="329.8" y="359">S</text><text class="ltr" x="338.2" y="359">P</text><text class="ltr" x="346.6" y="359">I</text><text class="ltr" x="355.0" y="359">T</text><text class="ltr" x="363.4" y="359">A</text><text class="ltr" x="371.8" y="359">L</text></g>
+          </g>
+
+          <g class="layer" data-depth="10">
+            <g class="ambulance">
+              <rect class="beacon" x="146" y="366" width="12" height="6" rx="2"/>
+              <rect class="amb-body" x="120" y="372" width="64" height="30" rx="4"/>
+              <path class="amb-body" d="M184 380h18l12 12v10h-30z"/>
+              <path class="amb-glass" d="M188 384h12l7 7h-19z"/>
+              <path class="amb-stripe" d="M122 396h60"/>
+              <path class="amb-cross" d="M152 380v14M145 387h14"/>
+              <g class="wheel"><circle cx="136" cy="405" r="7"/><path d="M136 400v10M131 405h10"/></g>
+              <g class="wheel"><circle cx="200" cy="405" r="7"/><path d="M200 400v10M195 405h10"/></g>
+            </g>
+            <g class="walker">
+              <g class="step">
+                <circle class="f-skin s-ink person" cx="352" cy="384" r="5"/>
+                <path class="coat" d="M347 391h10l2 13h-14z"/>
+                <path class="limb" d="M349 404l-2 8M355 404l2 8M347 393l-4 8M357 393l3 7"/>
+              </g>
+            </g>
+            <g class="walker walker-2">
+              <g class="step">
+                <circle class="f-skin s-ink person" cx="368" cy="392" r="4"/>
+                <path class="coat coat-blue" d="M364 397h8l1.5 9h-11z"/>
+                <path class="limb" d="M366 406l-1 6M370 406l1 6M364 399l-4 5"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+        

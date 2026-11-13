@@ -1,0 +1,42 @@
+﻿<!-- building:start -->
+        <svg class="building" viewBox="0 0 520 430">
+          <g class="lines">
+            <path class="ln" pathLength="1" d="M14 412H506"/>
+            <path class="ln" pathLength="1" d="M58 412V156Q130 124 202 156V412"/>
+            <path class="ln thin" pathLength="1" d="M58 196Q130 166 202 196M58 236Q130 206 202 236M58 276Q130 246 202 276M58 316Q130 286 202 316M58 356Q130 326 202 356"/>
+            <path class="ln thin" pathLength="1" d="M84 137.1V412M108 127.0V412M132 124.0V412M156 128.2V412M180 139.4V412"/>
+            <path class="ln" pathLength="1" d="M52 156Q130 118 208 156"/>
+            <path class="ln" pathLength="1" d="M202 412V118H424V412"/>
+            <path class="ln" pathLength="1" d="M196 118H430M206 104H420V118M206 104V118"/>
+            <path class="ln thin" pathLength="1" d="M220 140h26v24h-26zM262 140h26v24h-26zM304 140h26v24h-26zM346 140h26v24h-26zM388 140h26v24h-26z"/>
+            <path class="ln thin" pathLength="1" d="M220 180h26v24h-26zM262 180h26v24h-26zM304 180h26v24h-26zM346 180h26v24h-26zM388 180h26v24h-26z"/>
+            <path class="ln thin" pathLength="1" d="M220 220h26v24h-26zM262 220h26v24h-26zM304 220h26v24h-26zM346 220h26v24h-26zM388 220h26v24h-26z"/>
+            <path class="ln thin" pathLength="1" d="M220 260h26v24h-26zM262 260h26v24h-26zM304 260h26v24h-26zM346 260h26v24h-26zM388 260h26v24h-26z"/>
+            <path class="ln thin" pathLength="1" d="M220 300h26v24h-26zM262 300h26v24h-26zM304 300h26v24h-26zM346 300h26v24h-26zM388 300h26v24h-26z"/>
+            <path class="ln" pathLength="1" d="M424 412V214H500V412"/>
+            <path class="ln" pathLength="1" d="M418 214H506"/>
+            <path class="ln thin" pathLength="1" d="M436 234h20v20h-20zM468 234h20v20h-20z"/>
+            <path class="ln thin" pathLength="1" d="M436 268h20v20h-20zM468 268h20v20h-20z"/>
+            <path class="ln thin" pathLength="1" d="M436 302h20v20h-20zM468 302h20v20h-20z"/>
+            <path class="ln" pathLength="1" d="M244 412V364H382V412"/>
+            <path class="ln" pathLength="1" d="M230 364H396L384 346H242Z"/>
+            <path class="ln thin" pathLength="1" d="M290 412V378H336V412M313 378V412"/>
+            <path class="ln" pathLength="1" d="M268 104V86M358 104V86"/>
+            <path class="ln" pathLength="1" d="M250 86V54H376V86Z"/>
+            <path class="ln thin" pathLength="1" d="M30 412V384M30 384c-14 0-18-22-4-28c-2-14 18-18 22-6c14-2 16 18 4 22c2 10-10 14-22 12z"/>
+            <path class="ln thin" pathLength="1" d="M440 412V396H500"/>
+          </g>
+          <g class="badge badge-tower">
+            <circle cx="130" cy="236" r="34" fill="#fff" class="s-pink" stroke-width="2"/>
+            <image href="logo/nithya-logo.webp" x="104" y="210" width="52" height="52"/>
+          </g>
+          <g class="badge badge-roof">
+            <image href="logo/nithya-logo.webp" x="292" y="56" width="42" height="28"/>
+          </g>
+          <g class="badge badge-wing">
+            <circle cx="462" cy="186" r="15" fill="#fff" class="s-blue" stroke-width="2"/>
+            <path d="M462 178v16M454 186h16" class="s-pink" stroke-width="3" stroke-linecap="round"/>
+          </g>
+          <g class="name"><text class="ltr" x="254.2" y="359">N</text><text class="ltr" x="262.6" y="359">I</text><text class="ltr" x="271.0" y="359">T</text><text class="ltr" x="279.4" y="359">H</text><text class="ltr" x="287.8" y="359">Y</text><text class="ltr" x="296.2" y="359">A</text><text class="ltr" x="313.0" y="359">H</text><text class="ltr" x="321.4" y="359">O</text><text class="ltr" x="329.8" y="359">S</text><text class="ltr" x="338.2" y="359">P</text><text class="ltr" x="346.6" y="359">I</text><text class="ltr" x="355.0" y="359">T</text><text class="ltr" x="363.4" y="359">A</text><text class="ltr" x="371.8" y="359">L</text></g>
+        </svg>
+        

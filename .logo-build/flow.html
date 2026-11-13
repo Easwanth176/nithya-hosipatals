@@ -1,0 +1,41 @@
+<!doctype html>
+<html><body>
+<pre id="out">running</pre>
+<iframe id="f" src="/?lang=en" style="width:1200px;height:1600px"></iframe>
+<script>
+const out = document.getElementById("out");
+const log = [];
+document.getElementById("f").addEventListener("load", () => {
+  const w = document.getElementById("f").contentWindow;
+  const d = w.document;
+  const $ = (s) => d.querySelector(s);
+  try {
+    $("#next").click();
+    log.push("step1 empty error: " + $("#form-error").textContent);
+    d.querySelectorAll(".care-card")[3].click();
+    $("#choose-doctor").click();
+    $('.chip[data-value="video"]').click();
+    $("#next").click();
+    log.push("panel2 visible: " + !$('[data-panel="2"]').hidden);
+    const day = $('input[name="day"]');
+    const t = new Date(); t.setDate(t.getDate() + 2);
+    day.value = t.toISOString().slice(0, 10);
+    day.dispatchEvent(new Event("change"));
+    $('.chip[data-value="evening"]').click();
+    $("#next").click();
+    $('[name="name"]').value = "Lakshmi Devi";
+    $('[name="phone"]').value = "98765 43210";
+    $('[name="note"]').value = "Review of scan reports";
+    $("#submit").click();
+    log.push("done visible: " + !$("#request-done").hidden);
+    log.push("summary: " + [...d.querySelectorAll("[data-field]")].map((n) => n.dataset.field + "=" + n.textContent).join(" | "));
+    log.push("wa: " + decodeURIComponent($("#send-wa").href));
+    $("#lang-switch").click();
+    log.push("te summary: " + [...d.querySelectorAll("[data-field]")].map((n) => n.textContent).join(" | "));
+    log.push("te wa: " + decodeURIComponent($("#send-wa").href));
+    $("#lang-switch").click();
+  } catch (e) { log.push("ERROR " + e.message); }
+  out.textContent = log.join("\n");
+});
+</script>
+</body></html>

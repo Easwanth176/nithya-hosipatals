@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<style>
+  body { margin: 0; background: #222; display: flex; gap: 12px; padding: 12px; }
+  .stage { position: relative; width: 450px; height: 460px; }
+  .stage img, .stage svg { position: absolute; inset: 0; width: 450px; height: 460px; }
+  .clean { background: #fff; width: 450px; height: 460px; border-radius: 12px; }
+</style>
+</head>
+<body>
+  <div class="stage">
+    <img src="original-crop.png" alt=""/>
+    <svg viewBox="10 280 450 460">
+      <g fill="none" stroke="#c2185b" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="214" cy="401" r="17"/>
+        <circle cx="253" cy="403" r="12.5"/>
+        <path d="M208 426
+                 C192 430 178 444 182 464
+                 C186 484 202 498 228 506
+                 C246 500 258 486 256 472"/>
+        <path d="M236 430
+                 C248 418 274 418 278 434
+                 C284 452 270 464 254 458
+                 C242 454 244 442 256 444"/>
+      </g>
+    </svg>
+  </div>
+  <div class="clean">
+    <svg viewBox="160 360 140 160" width="450" height="460">
+      <g fill="none" stroke="#F0B0DE" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="214" cy="401" r="17"/>
+        <circle cx="253" cy="403" r="12.5"/>
+        <path d="M208 426
+                 C192 430 178 444 182 464
+                 C186 484 202 498 228 506
+                 C246 500 258 486 256 472"/>
+        <path d="M236 430
+                 C248 418 274 418 278 434
+                 C284 452 270 464 254 458
+                 C242 454 244 442 256 444"/>
+      </g>
+    </svg>
+  </div>
+</body>
+</html>
